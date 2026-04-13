@@ -1,0 +1,34 @@
+@theme {
+  --color-paper: #f8f3ec;
+  --color-paper-soft: #efe7db;
+  --color-paper-strong: #dfd1be;
+  --color-ink: #211c18;
+  --color-ink-muted: #5c554d;
+  --color-ink-soft: #8a8178;
+  --color-sage: #718170;
+  --color-sage-soft: #aab5a2;
+  --color-gold: #cfb283;
+  --color-glow: #e3cfaf;
+  --color-line: rgba(33, 28, 24, 0.11);
+  --color-line-strong: rgba(33, 28, 24, 0.2);
+  --font-sans: "Manrope", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
+:root {
+  --surface-primary: rgba(255, 255, 255, 0.68);
+  --surface-secondary: rgba(255, 250, 244, 0.76);
+  --surface-contrast: rgba(26, 22, 19, 0.94);
+  --surface-accent: linear-gradient(
+    135deg,
+    rgba(227, 207, 175, 0.34),
+    rgba(113, 129, 112, 0.12)
+  );
+  --shadow-soft: 0 26px 70px rgba(33, 28, 24, 0.08);
+  --shadow-card: 0 12px 40px rgba(33, 28, 24, 0.06);
+  --radius-card: 30px;
+  --radius-pill: 999px;
+  --radius-frame: 38px;
+  --space-section: clamp(5.5rem, 8vw, 8.75rem);
+  --space-stack: clamp(1.25rem, 2vw, 2rem);
+}

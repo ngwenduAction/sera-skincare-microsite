@@ -1,26 +1,30 @@
-import gsap from "gsap";
-import { ScrollTrigger, SplitText } from "gsap/all";
-import Navbar from "./Components/Navbar.jsx";
-import Hero from "./Components/Hero.jsx";
-import Cocktails from "./Components/Cocktails.jsx";
-import About from "./Components/About.jsx";
-import Art from "./Components/Art.jsx";
-import Menu from "./Components/Menu.jsx";
-import Contact from "./Components/Contact.jsx";
-
-gsap.registerPlugin(ScrollTrigger, SplitText);
+import SiteHeader from "./components/layout/SiteHeader.jsx";
+import HeroFilmSection from "./sections/HeroFilmSection.jsx";
+import IngredientStorySection from "./sections/IngredientStorySection.jsx";
+import RoutineExplorer from "./sections/RoutineExplorer.jsx";
+import FormulaRevealSection from "./sections/FormulaRevealSection.jsx";
+import EditorialProofSection from "./sections/EditorialProofSection.jsx";
+import FounderManifestoSection from "./sections/FounderManifestoSection.jsx";
+import ConversionFooter from "./sections/ConversionFooter.jsx";
 
 const App = () => {
-    return (
-        <main>
-            <Navbar/>
-            <Hero/>
-            <Cocktails/>
-            <About/>
-            <Art/>
-            <Menu/>
-            <Contact/>
-        </main>
-    );
-}
-export default App
+  return (
+    <>
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
+      <SiteHeader />
+      <main id="main-content">
+        <HeroFilmSection />
+        <IngredientStorySection />
+        <RoutineExplorer />
+        <FormulaRevealSection />
+        <EditorialProofSection />
+        <FounderManifestoSection />
+        <ConversionFooter />
+      </main>
+    </>
+  );
+};
+
+export default App;

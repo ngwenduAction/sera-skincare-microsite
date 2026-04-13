@@ -1,16 +1,35 @@
-# React + Vite
+# SÉRA Microsite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SÉRA is a concept-driven skincare campaign microsite built with React, Tailwind CSS, and GSAP. The project explores premium editorial storytelling through calm motion, responsive layout systems, and production-conscious frontend architecture.
 
-Currently, two official plugins are available:
+## Brand Direction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Barrier-first skincare for overstimulated skin
+- Calm, premium, editorial, clinical-soft tone
+- Warm ivory, sage, muted gold, and charcoal palette
+- Serif-led display typography with clean sans body copy
+- Restrained cinematic motion instead of effect-heavy animation
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- GSAP
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components` — shared layout, motion, and UI primitives
+- `src/sections` — page-level campaign sections
+- `src/data` — modular content for brand, hero, ingredients, rituals, proof, founder, and footer
+- `src/hooks` — ref-scoped GSAP hooks with reduced-motion support
+- `src/styles` — theme tokens and base styles
+- `src/utils` — GSAP setup and shared helpers
+
+## Scripts
+
+```bash
+npm run dev
+npm run lint
+npm run build
+```
