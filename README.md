@@ -6,6 +6,8 @@ SÉRA is a concept-driven skincare campaign microsite built with React, Tailwind
 
 ![SÉRA microsite preview](./src/assets/og/SÉRA-Éclat-Vitamin-C-Serum-Promo.webm)
 
+![SÉRA microsite preview](./src/assets/og/SÉRA-rum.jpg)
+
 ## Brand Direction
 
 - Barrier-first skincare for overstimulated skin
